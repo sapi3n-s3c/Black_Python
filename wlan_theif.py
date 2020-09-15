@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import subprocess, smtplib, re
 
 def send_mail(email, psswd, message):
@@ -26,4 +27,4 @@ for name in network_names_list:
 
 
 
-send_mail(email, password result)
+#send_mail(email, password result)
