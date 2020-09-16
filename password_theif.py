@@ -15,7 +15,7 @@ def download(url):
         out_file.write(get_response.content)
 
 #======================================
-#
+#Create SMTP Server to send emails
 #======================================
 def send_mail(email, psswd, message):
     server = smtplib.SMTP("smtp.gmail.com", 587) #(smtp_server, port)
